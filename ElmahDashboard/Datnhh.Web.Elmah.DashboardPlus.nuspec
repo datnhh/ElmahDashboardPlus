@@ -8,7 +8,7 @@
     <summary>An ASP.NET MVC dashboard and logviewer for your ELMAH loggings.</summary>
     <description>An ASP.NET MVC C# area that provides a dashboard and logviewer to ELMAH loggings on SQL Server. This package contains only sourcecode, no assemblies. It use d3 javascript library to draw chart. It is based on Arebis.Web.Mvc.ElmahDashboard</description>
     <tags>elmah mvc error logging dashboard</tags>
-    <licenseUrl>https://github.com/datnhh/ElmahDashboardPlus</licenseUrl>
+    <licenseUrl>https://github.com/datnhh/ElmahDashboardPlus/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/datnhh/ElmahDashboardPlus</projectUrl>
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

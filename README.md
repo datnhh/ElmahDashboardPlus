@@ -20,7 +20,7 @@ routes.MapRoute(
 );
 ```
 
-================================
+
 
 ### Securing the ELMAH Dashboard
 
@@ -64,7 +64,7 @@ public class MvcElmahDashboardAreaRegistration : AreaRegistration
 ### Adding indexes on your [ELMAH_Error] table
 
 ```
-	CREATE NONCLUSTERED INDEX [IX_ELMAH_Error_Application] ON [dbo].[ELMAH_Error] ([Application] ASC)
+CREATE NONCLUSTERED INDEX [IX_ELMAH_Error_Application] ON [dbo].[ELMAH_Error] ([Application] ASC)
     GO
     CREATE NONCLUSTERED INDEX [IX_ELMAH_Error_Host] ON [dbo].[ELMAH_Error] ([Host] ASC)
     GO
