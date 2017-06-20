@@ -16,7 +16,7 @@ routes.MapRoute(
 	name: "Default",
 	url: "{controller}/{action}/{id}",
 	defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
-	namespaces: new String[] { "ElmahDashboardHostingApp.Controllers" }
+	namespaces: new String[] { "<<your_namespace>>.Controllers" }
 );
 ```
 
@@ -53,7 +53,7 @@ public class MvcElmahDashboardAreaRegistration : AreaRegistration
     {
         context.MapRoute(
             name: "MvcElmahDashboard_default",
-            url: "<span class="marked">MvcElmahDashboard</span>/{controller}/{action}/{id}",
+            url: <<your_elmah_url>>/{controller}/{action}/{id}",
             defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
             namespaces: new string[] { "ElmahDashboardHostingApp.Areas.MvcElmahDashboard.Controllers" }
         );
