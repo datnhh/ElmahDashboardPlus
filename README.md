@@ -1,4 +1,5 @@
 # Datnhh.Web.Elmah.DashboardPlus
+================================
 
 An ASP.NET MVC Dashboard for ELMAH logging.
 
@@ -18,6 +19,8 @@ routes.MapRoute(
 	namespaces: new String[] { "ElmahDashboardHostingApp.Controllers" }
 );
 ```
+
+================================
 
 ### Securing the ELMAH Dashboard
 
